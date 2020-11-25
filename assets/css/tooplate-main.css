@@ -240,11 +240,23 @@ nav a::before {
   position: fixed;
  	display: inline-block;
   text-align: center;
-	background-color: rgba(0,0,0,0.8);
+	background-color: rgba(0,0,0,0.75);
 	height: 15%;
 	width: 15%;
 }
+.logo h1 {  	font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #111;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
 
+}
+.logo h2 {
+  display: none;
+}
 .slides {
   width: 500vw;
   height: 100vh;
@@ -629,26 +641,32 @@ nav a::before {
 	top: 220%!important;
 	transform: translateY(-220%);
   }
-  .logo h1 {
-    display: none;
-  }
-  .logo h2 {
-  	margin-top: 0px;
-    line-height: 100px;
-    height: 100px;
-    width: 15vw;
-    top: 0;
-    left: 0;
-    z-index: 999999;
-    position: fixed;
-    font-size: 24px;
-    text-transform: uppercase;
-    font-weight: 900;
-    color: #111;
-    display: inline-block;
-    text-align: center;
-    background-color: rgba(0,0,0,0.75);
-  }
+  .logo {
+	margin-top: 0px;
+  top: 0;
+  left: 0;
+  z-index: 999999;
+  position: fixed;
+ 	display: inline-block;
+  text-align: center;
+	background-color: rgba(0,0,0,0.75);
+	height: 15%;
+	width: 15%;
+}
+.logo h1 {  	
+
+}
+.logo h2 {
+font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #111;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  
+}
   nav {
     top: 0vh;
     height: 100px;
